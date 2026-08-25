@@ -252,6 +252,373 @@ ul {
   color: #ff4d4d;
 }
 
+/* 
+   LEGACY SECTION
+*/
+
+.legacy-section {
+    width: 100%;
+    height: 700px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    overflow: hidden;
+    padding-bottom: 30px;
+}
+
+/* IMAGE */
+
+.legacy-image {
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+.legacy-image img {
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: cover;
+}
+
+.legacy-content {
+    background: #b00000;
+
+    color: #fff;
+
+    display: flex;
+    flex-direction: column;
+
+    align-items: center;
+    justify-content: center;
+
+    text-align: center;
+
+    padding: 30px 45px;
+}
+
+.legacy-content h2 {
+    max-width: 600px;
+
+    margin-bottom: 30px;
+
+    font-size: 30px;
+    line-height: 1.25;
+    font-weight: 700;
+}
+
+.legacy-content p {
+    max-width: 400px;
+
+    margin-bottom: 17px;
+
+    font-size: 20px;
+    line-height: 1.4;
+    font-weight: 400;
+}
+
+.legacy-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 250px;
+    height: 40px;
+
+    border: 2px solid #fff;
+    border-radius: 2px;
+
+    color: #fff;
+    text-decoration: none;
+
+    font-size: 20px;
+    font-weight: 600;
+
+    transition: 0.25s ease;
+}
+
+.legacy-button:hover {
+    background: #fff;
+    color: #b00000;
+}
+
+/* 
+   TEAM SECTION
+ */
+
+.team-section {
+    width: 100%;
+    min-height: 415px;
+
+    background: #222222;
+    color: #ffffff;
+
+    padding: 55px 20px 70px;
+
+    text-align: center;
+}
+
+.team-header h2 {
+    margin: 0;
+
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+.team-list {
+    display: flex;
+
+    justify-content: center;
+    align-items: center;
+
+    gap: 26px;
+
+    margin-top: 31px;
+}
+
+.team-card {
+    width: 150px;
+    height: 195px;
+
+    overflow: hidden;
+}
+
+.team-card img {
+    width: 100%;
+    height: 100%;
+
+    display: block;
+
+    object-fit: cover;
+}
+
+
+/* 
+   CTA SECTION
+*/
+
+.cta-section {
+    position: relative;
+
+    width: 100%;
+    height: 190px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    overflow: hidden;
+}
+
+
+/* BACKGROUND IMAGE */
+
+.cta-background {
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+
+    object-fit: cover;
+    object-position: center;
+
+    z-index: 0;
+}
+
+
+/* DARK OVERLAY */
+
+.cta-overlay {
+    position: absolute;
+
+    inset: 0;
+
+    background: rgba(0, 0, 0, 0.62);
+
+    z-index: 1;
+}
+
+
+/* CTA CONTENT */
+
+.cta-content {
+    position: relative;
+
+    z-index: 2;
+
+    color: #ffffff;
+
+    text-align: center;
+}
+
+
+/* TITLE */
+
+.cta-content h2 {
+    margin: 0 0 10px;
+
+    font-size: 25px;
+    line-height: 1.25;
+
+    font-weight: 700;
+}
+
+
+/* DESCRIPTION */
+
+.cta-content p {
+    margin: 0 0 14px;
+
+    font-size: 8px;
+    line-height: 1.4;
+}
+
+
+/* BUTTON */
+
+.cta-button {
+    display: inline-flex;
+
+    align-items: center;
+    justify-content: center;
+
+    width: 87px;
+    height: 24px;
+
+    border: 1px solid #ffffff;
+    border-radius: 2px;
+
+    color: #ffffff;
+    text-decoration: none;
+
+    font-size: 8px;
+
+    transition: 0.25s ease;
+}
+
+
+/* HOVER */
+
+.cta-button:hover {
+    background: #ffffff;
+    color: #222222;
+}
+
+/* 
+   TESTIMONIAL SECTION
+*/
+
+.testimonial-section {
+    width: 100%;
+
+    min-height: 320px;
+
+    background: #222222;
+
+    color: #ffffff;
+
+    padding: 35px 20px 15px;
+}
+
+
+/* HEADER */
+
+.testimonial-header {
+    text-align: center;
+}
+
+.testimonial-header span {
+    display: block;
+
+    margin-bottom: 12px;
+
+    font-size: 8px;
+}
+
+.testimonial-header h2 {
+    margin: 0;
+
+    font-size: 25px;
+    line-height: 1.3;
+    font-weight: 700;
+}
+
+
+/* CARDS */
+
+.testimonial-list {
+    display: flex;
+
+    justify-content: center;
+
+    gap: 13px;
+
+    margin-top: 43px;
+}
+
+.testimonial-card {
+    width: 191px;
+    min-height: 140px;
+
+    padding: 16px 20px;
+
+    background: #ffffff;
+
+    color: #111111;
+
+    border-radius: 2px;
+}
+
+.testimonial-card p {
+    margin: 0;
+
+    font-size: 8px;
+
+    line-height: 1.35;
+}
+
+
+/* USER */
+
+.testimonial-user {
+    display: flex;
+
+    align-items: center;
+
+    gap: 8px;
+
+    margin-top: 12px;
+}
+
+.testimonial-user img {
+    width: 22px;
+    height: 22px;
+
+    border-radius: 50%;
+
+    object-fit: cover;
+}
+
+.testimonial-user h4 {
+    margin: 0;
+
+    font-size: 8px;
+}
+
+.testimonial-user span {
+    display: block;
+
+    margin-top: 2px;
+
+    font-size: 7px;
+
+    color: #666666;
+}
 
 /* 
    RESPONSIF
@@ -284,4 +651,56 @@ ul {
     padding: 14px 28px;
     font-size: 0.85rem;
   }
+}
+
+@media (max-width: 700px) {
+    .legacy-section {
+        height: auto;
+
+        grid-template-columns: 1fr;
+        grid-template-rows: repeat(4, 300px);
+    }
+
+    .legacy-content h2 {
+        font-size: 22px;
+    }
+
+    .legacy-content p {
+        font-size: 11px;
+    }
+}
+
+@media (max-width: 700px) {
+
+    .team-section {
+        padding: 45px 20px;
+    }
+
+    .team-header h2,
+    .testimonial-header h2,
+    .cta-content h2 {
+        font-size: 21px;
+    }
+
+    .team-list {
+        gap: 12px;
+    }
+
+    .team-card {
+        width: 30%;
+        height: 170px;
+    }
+
+    .cta-section {
+        height: 230px;
+    }
+
+    .testimonial-list {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .testimonial-card {
+        width: min(100%, 300px);
+    }
 }
