@@ -1,4 +1,4 @@
-# Dokumentasi Company Profile    
+<img width="1437" height="352" alt="image" src="https://github.com/user-attachments/assets/d394f886-6ba4-49d3-8ecb-9225953d9f0e" /># Dokumentasi Company Profile    
 
 == Deskripsi
 Website Industry Profile ini dibuat sebagai media promosi online perusahaan, 
@@ -65,3 +65,10 @@ Berisi informasi kontak, logo, tautan sosial media, dan copyright perusahaan.
 Website Industry Profile ini dibuat untuk memudahkan calon klien mengenal profil, 
 layanan, dan rekam jejak perusahaan secara online, sekaligus membangun kepercayaan 
 lewat testimoni nyata dari pelanggan.
+<img width="1444" height="758" alt="image" src="https://github.com/user-attachments/assets/c1209c37-82ba-4c99-a3f0-e4b32db77ae4" />
+<img width="1440" height="1025" alt="image" src="https://github.com/user-attachments/assets/cf1e76b6-6552-4373-a8f0-818e28b8dc74" />
+<img width="1440" height="716" alt="image" src="https://github.com/user-attachments/assets/1eae0b77-7379-49a9-ac96-26e0399f9dc0" />
+<img width="1440" height="761" alt="image" src="https://github.com/user-attachments/assets/4476f359-a306-4e4d-b687-d708d63ebadd" />
+<img width="1439" height="924" alt="image" src="https://github.com/user-attachments/assets/3c87969e-2171-4da3-bed0-1b1ca081780a" />
+
+
